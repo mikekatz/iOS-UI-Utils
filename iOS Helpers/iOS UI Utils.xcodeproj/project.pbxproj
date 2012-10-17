@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271FD3CC162F12C1001238D3 /* MKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271FD3CA162F12C1001238D3 /* MKViewController_iPhone.xib */; };
+		271FD3CF162F18FD001238D3 /* MKGradientButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 271FD3CE162F18FD001238D3 /* MKGradientButtonTests.m */; };
 		2736B1EA162DC7A7006CF960 /* MKGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2736B1D8162DC7A6006CF960 /* MKGradientButton.m */; };
 		2736B1EB162DC7A8006CF960 /* MKCGTypeHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2736B1DB162DC7A6006CF960 /* MKCGTypeHelpers.m */; };
 		2736B1EC162DC7A8006CF960 /* MD5Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2736B1DE162DC7A7006CF960 /* MD5Helpers.m */; };
@@ -32,7 +34,6 @@
 		27D0B12B15C8270C00354D19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D0B12A15C8270C00354D19 /* main.m */; };
 		27D0B12F15C8270C00354D19 /* MKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D0B12E15C8270C00354D19 /* MKAppDelegate.m */; };
 		27D0B13215C8270C00354D19 /* MKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D0B13115C8270C00354D19 /* MKViewController.m */; };
-		27D0B13515C8270C00354D19 /* MKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D0B13315C8270C00354D19 /* MKViewController_iPhone.xib */; };
 		27D0B13815C8270C00354D19 /* MKViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D0B13615C8270C00354D19 /* MKViewController_iPad.xib */; };
 		27D0B14015C8270C00354D19 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D0B13F15C8270C00354D19 /* SenTestingKit.framework */; };
 		27D0B14115C8270C00354D19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D0B11E15C8270C00354D19 /* UIKit.framework */; };
@@ -51,6 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		271FD3CB162F12C1001238D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKViewController_iPhone.xib; sourceTree = "<group>"; };
+		271FD3CD162F18FD001238D3 /* MKGradientButtonTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKGradientButtonTests.h; sourceTree = "<group>"; };
+		271FD3CE162F18FD001238D3 /* MKGradientButtonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKGradientButtonTests.m; sourceTree = "<group>"; };
 		2736B1D7162DC7A6006CF960 /* MKGradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKGradientButton.h; sourceTree = "<group>"; };
 		2736B1D8162DC7A6006CF960 /* MKGradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKGradientButton.m; sourceTree = "<group>"; };
 		2736B1DA162DC7A6006CF960 /* MKCGTypeHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCGTypeHelpers.h; sourceTree = "<group>"; };
@@ -88,7 +92,6 @@
 		27D0B12E15C8270C00354D19 /* MKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKAppDelegate.m; sourceTree = "<group>"; };
 		27D0B13015C8270C00354D19 /* MKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKViewController.h; sourceTree = "<group>"; };
 		27D0B13115C8270C00354D19 /* MKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKViewController.m; sourceTree = "<group>"; };
-		27D0B13415C8270C00354D19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKViewController_iPhone.xib; sourceTree = "<group>"; };
 		27D0B13715C8270C00354D19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKViewController_iPad.xib; sourceTree = "<group>"; };
 		27D0B13E15C8270C00354D19 /* iOS UI UtilsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS UI UtilsTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D0B13F15C8270C00354D19 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -203,8 +206,8 @@
 				27D0B12E15C8270C00354D19 /* MKAppDelegate.m */,
 				27D0B13015C8270C00354D19 /* MKViewController.h */,
 				27D0B13115C8270C00354D19 /* MKViewController.m */,
-				27D0B13315C8270C00354D19 /* MKViewController_iPhone.xib */,
 				27D0B13615C8270C00354D19 /* MKViewController_iPad.xib */,
+				271FD3CA162F12C1001238D3 /* MKViewController_iPhone.xib */,
 				27D0B12515C8270C00354D19 /* Supporting Files */,
 			);
 			name = "iOS UI Utils";
@@ -234,6 +237,8 @@
 				2736B1FE162DD466006CF960 /* TestNSArrayCategory.m */,
 				2736B202162DDD5B006CF960 /* NSStringCategoryTests.h */,
 				2736B203162DDD5B006CF960 /* NSStringCategoryTests.m */,
+				271FD3CD162F18FD001238D3 /* MKGradientButtonTests.h */,
+				271FD3CE162F18FD001238D3 /* MKGradientButtonTests.m */,
 				27D0B14615C8270C00354D19 /* Supporting Files */,
 			);
 			path = "iOS HelpersTests";
@@ -333,11 +338,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				27D0B12915C8270C00354D19 /* InfoPlist.strings in Resources */,
-				27D0B13515C8270C00354D19 /* MKViewController_iPhone.xib in Resources */,
 				27D0B13815C8270C00354D19 /* MKViewController_iPad.xib in Resources */,
 				2736B1FA162DCF2C006CF960 /* Default-568h@2x.png in Resources */,
 				2736B1FB162DCF2C006CF960 /* Default.png in Resources */,
 				2736B1FC162DCF2C006CF960 /* Default@2x.png in Resources */,
+				271FD3CC162F12C1001238D3 /* MKViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +401,7 @@
 				2736B200162DDC5E006CF960 /* NSArray+MKHelpers.m in Sources */,
 				2736B201162DDC61006CF960 /* NSString+MKHelpers.m in Sources */,
 				2736B204162DDD5B006CF960 /* NSStringCategoryTests.m in Sources */,
+				271FD3CF162F18FD001238D3 /* MKGradientButtonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,20 +416,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		271FD3CA162F12C1001238D3 /* MKViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271FD3CB162F12C1001238D3 /* en */,
+			);
+			name = MKViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
 		27D0B12715C8270C00354D19 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				27D0B12815C8270C00354D19 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		27D0B13315C8270C00354D19 /* MKViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27D0B13415C8270C00354D19 /* en */,
-			);
-			name = MKViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
 		27D0B13615C8270C00354D19 /* MKViewController_iPad.xib */ = {
