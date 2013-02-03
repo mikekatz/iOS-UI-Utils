@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271827BE16BED67500825D50 /* UIImage+MKHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 271827BD16BED67500825D50 /* UIImage+MKHelpers.m */; };
 		271FD3CC162F12C1001238D3 /* MKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271FD3CA162F12C1001238D3 /* MKViewController_iPhone.xib */; };
 		271FD3CF162F18FD001238D3 /* MKGradientButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 271FD3CE162F18FD001238D3 /* MKGradientButtonTests.m */; };
 		2736B1EA162DC7A7006CF960 /* MKGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2736B1D8162DC7A6006CF960 /* MKGradientButton.m */; };
@@ -52,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		271827BC16BED67500825D50 /* UIImage+MKHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MKHelpers.h"; sourceTree = "<group>"; };
+		271827BD16BED67500825D50 /* UIImage+MKHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MKHelpers.m"; sourceTree = "<group>"; };
 		271FD3CB162F12C1001238D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKViewController_iPhone.xib; sourceTree = "<group>"; };
 		271FD3CD162F18FD001238D3 /* MKGradientButtonTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKGradientButtonTests.h; sourceTree = "<group>"; };
 		271FD3CE162F18FD001238D3 /* MKGradientButtonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKGradientButtonTests.m; sourceTree = "<group>"; };
@@ -164,6 +167,8 @@
 				2736B1E7162DC7A7006CF960 /* UILabel+MKHelpers.m */,
 				2736B1E8162DC7A7006CF960 /* UIWindow+MKHelpers.h */,
 				2736B1E9162DC7A7006CF960 /* UIWindow+MKHelpers.m */,
+				271827BC16BED67500825D50 /* UIImage+MKHelpers.h */,
+				271827BD16BED67500825D50 /* UIImage+MKHelpers.m */,
 			);
 			path = "UIKit Categories";
 			sourceTree = "<group>";
@@ -388,6 +393,7 @@
 				2736B1EF162DC7A8006CF960 /* UIColor+MKHelpers.m in Sources */,
 				2736B1F0162DC7A8006CF960 /* UILabel+MKHelpers.m in Sources */,
 				2736B1F1162DC7A8006CF960 /* UIWindow+MKHelpers.m in Sources */,
+				271827BE16BED67500825D50 /* UIImage+MKHelpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
