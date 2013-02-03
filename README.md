@@ -20,6 +20,8 @@ Helpful ui classes.
     * multiline resizing
 * **UIWindow utilities** - /Classes/UIKit Categories/  
     * find the keyboard view 
+* **UIImage utilities** - /Classes/UIKit Categories/
+    * create a image of a solid color
 
 ## System Requirements
 These classes should work on iOS 4.0 and later. 
