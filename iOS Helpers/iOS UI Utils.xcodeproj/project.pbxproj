@@ -40,6 +40,7 @@
 		27D0B14115C8270C00354D19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D0B11E15C8270C00354D19 /* UIKit.framework */; };
 		27D0B14215C8270C00354D19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D0B12015C8270C00354D19 /* Foundation.framework */; };
 		27D0B14A15C8270C00354D19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27D0B14815C8270C00354D19 /* InfoPlist.strings */; };
+		27F5D85916F75E80001828F3 /* UIFont+MKHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F5D85816F75E80001828F3 /* UIFont+MKHelpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,8 @@
 		27D0B13F15C8270C00354D19 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		27D0B14715C8270C00354D19 /* iOS UI UtilsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS UI UtilsTests-Info.plist"; sourceTree = "<group>"; };
 		27D0B14915C8270C00354D19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27F5D85716F75E80001828F3 /* UIFont+MKHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+MKHelpers.h"; sourceTree = "<group>"; };
+		27F5D85816F75E80001828F3 /* UIFont+MKHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+MKHelpers.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +172,8 @@
 				2736B1E9162DC7A7006CF960 /* UIWindow+MKHelpers.m */,
 				271827BC16BED67500825D50 /* UIImage+MKHelpers.h */,
 				271827BD16BED67500825D50 /* UIImage+MKHelpers.m */,
+				27F5D85716F75E80001828F3 /* UIFont+MKHelpers.h */,
+				27F5D85816F75E80001828F3 /* UIFont+MKHelpers.m */,
 			);
 			path = "UIKit Categories";
 			sourceTree = "<group>";
@@ -394,6 +399,7 @@
 				2736B1F0162DC7A8006CF960 /* UILabel+MKHelpers.m in Sources */,
 				2736B1F1162DC7A8006CF960 /* UIWindow+MKHelpers.m in Sources */,
 				271827BE16BED67500825D50 /* UIImage+MKHelpers.m in Sources */,
+				27F5D85916F75E80001828F3 /* UIFont+MKHelpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

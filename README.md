@@ -22,6 +22,8 @@ Helpful ui classes.
     * find the keyboard view 
 * **UIImage utilities** - /Classes/UIKit Categories/
     * create a image of a solid color
+* **UIFont utilities** - /Classes/UIKit Categories/
+    * Log all the available font names to the console
 
 ## System Requirements
 These classes should work on iOS 4.0 and later. 
