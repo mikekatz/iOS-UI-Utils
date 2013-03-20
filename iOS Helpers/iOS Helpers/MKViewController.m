@@ -2,9 +2,19 @@
 //  MKViewController.m
 //  iOS Helpers
 //
-//  Created by Michael Katz on 7/31/12.
-//  Copyright (c) 2012 MK. All rights reserved.
+//  Copyright (c) 2012-2013 Michael Katz.
 //
+//  Licensed under the Apache License, Version 2.0 (the "License");
+//  you may not use this file except in compliance with the License.
+//  You may obtain a copy of the License at
+//
+//  http://www.apache.org/licenses/LICENSE-2.0
+//
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an "AS IS" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
 
 #import "MKViewController.h"
 #import "UIWindow+MKHelpers.h"
@@ -33,27 +43,27 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    MKGradientButton* button = [self.view viewWithTag:2];
+    MKGradientButton* button = (MKGradientButton*) [self.view viewWithTag:2];
     button.buttonColor = [UIColor blackColor];
     
-    button = [self.view viewWithTag:3];
+    button = (MKGradientButton*) [self.view viewWithTag:3];
     button.buttonColor = [UIColor blueColor];
     [button startSpinner];
     
-    button = [self.view viewWithTag:4];
+    button = (MKGradientButton*) [self.view viewWithTag:4];
     button.buttonColor = [UIColor redColor];
     
-    button = [self.view viewWithTag:5];
+    button = (MKGradientButton*) [self.view viewWithTag:5];
     button.buttonColor = [UIColor greenColor];
     
-    button = [self.view viewWithTag:6];
+    button = (MKGradientButton*) [self.view viewWithTag:6];
     button.gradientArray = @[[UIColor redColor], [UIColor purpleColor]];
     button.borderColor = [UIColor yellowColor];
     
-    button = [self.view viewWithTag:7];
+    button = (MKGradientButton*) [self.view viewWithTag:7];
     button.gradientArray = @[[UIColor redColor], [UIColor yellowColor], [UIColor greenColor], [UIColor blueColor], [UIColor purpleColor]];
     
-    button = [self.view viewWithTag:8];
+    button = (MKGradientButton*) [self.view viewWithTag:8];
     button.borderColor = [UIColor brownColor];
     button.buttonColor = [UIColor yellowColor];
     [button startSpinner];

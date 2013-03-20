@@ -24,6 +24,8 @@ Helpful ui classes.
     * create a image of a solid color
 * **UIFont utilities** - /Classes/UIKit Categories/
     * Log all the available font names to the console
+* **UIView utilities** - /Classes/UIKit Categories/
+    * Log a view's heirarchy to the console
 
 ## System Requirements
 These classes should work on iOS 4.0 and later. 
