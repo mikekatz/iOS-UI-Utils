@@ -13,6 +13,7 @@ Helpful ui classes.
 * **CGRect utilities** - /Classes/CG Helpers/MKCGTypeHelpers.m
 * **NSString utilities** - /Classes/Foundation Categories/
 * **NSArray utilities** - /Classes/Foundation Categories/
+* **NSDate utilities** - /Classes/Foundation Categories/
 * **MD5 hashing** - /Classes/Foundation Categories/
 * **UIColor utilities** - /Classes/UIKit Categories/
     * Constructors from Hex and int 
