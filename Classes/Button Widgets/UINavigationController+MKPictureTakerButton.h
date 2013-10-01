@@ -1,8 +1,8 @@
 //
-//  NSArray+MKHelpers.h
+//  UINavigationController+MKPictureTakerButton.h
 //  iOS UI Utils
 //
-//  Copyright 2012-2013 Michael Katz
+//  Copyright 2013 Michael Katz
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -15,20 +15,12 @@
 //  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 //  See the License for the specific language governing permissions and
 //  limitations under the License.
-//
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-/* Array utils */
-@interface NSArray (MKHelpers)
-/** Returns the elements of the start array, reversed.
- @return a new array with the reversed elements 
- */
-- (NSArray*) reverseArray;
+/* Sample code to remind me how to launch the image picker */
+@interface UINavigationController (MKPictureTakerButton)
 
-- (NSArray*) map:(id (^)(id obj, NSUInteger idx)) mapping;
-+ (NSArray*) intArrayFrom:(NSInteger)start to:(NSInteger)end;
-
-- (instancetype) arrayByRemovingObject:(id)object;
+- (void)setCameraAction:(UIButton*)button;
 
 @end

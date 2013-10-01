@@ -28,6 +28,7 @@
 		2736B200162DDC5E006CF960 /* NSArray+MKHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2736B1E0162DC7A7006CF960 /* NSArray+MKHelpers.m */; };
 		2736B201162DDC61006CF960 /* NSString+MKHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2736B1E2162DC7A7006CF960 /* NSString+MKHelpers.m */; };
 		2736B204162DDD5B006CF960 /* NSStringCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2736B203162DDD5B006CF960 /* NSStringCategoryTests.m */; };
+		276F28E217FA28D20046E0FF /* UINavigationController+MKPictureTakerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 276F28E117FA28D20046E0FF /* UINavigationController+MKPictureTakerButton.m */; };
 		2772C630171839080003B8B5 /* NSDate+MKHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2772C62F171839080003B8B5 /* NSDate+MKHelpers.m */; };
 		27D0B11F15C8270C00354D19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D0B11E15C8270C00354D19 /* UIKit.framework */; };
 		27D0B12115C8270C00354D19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D0B12015C8270C00354D19 /* Foundation.framework */; };
@@ -86,6 +87,8 @@
 		2736B1FE162DD466006CF960 /* TestNSArrayCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNSArrayCategory.m; sourceTree = "<group>"; };
 		2736B202162DDD5B006CF960 /* NSStringCategoryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringCategoryTests.h; sourceTree = "<group>"; };
 		2736B203162DDD5B006CF960 /* NSStringCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringCategoryTests.m; sourceTree = "<group>"; };
+		276F28E017FA28D20046E0FF /* UINavigationController+MKPictureTakerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+MKPictureTakerButton.h"; path = "../Button Widgets/UINavigationController+MKPictureTakerButton.h"; sourceTree = "<group>"; };
+		276F28E117FA28D20046E0FF /* UINavigationController+MKPictureTakerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+MKPictureTakerButton.m"; path = "../Button Widgets/UINavigationController+MKPictureTakerButton.m"; sourceTree = "<group>"; };
 		2772C62E171839080003B8B5 /* NSDate+MKHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MKHelpers.h"; sourceTree = "<group>"; };
 		2772C62F171839080003B8B5 /* NSDate+MKHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MKHelpers.m"; sourceTree = "<group>"; };
 		27D0B11A15C8270C00354D19 /* iOS UI Utils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS UI Utils.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +179,8 @@
 				2736B1E5162DC7A7006CF960 /* UIColor+MKHelpers.m */,
 				2736B1E6162DC7A7006CF960 /* UILabel+MKHelpers.h */,
 				2736B1E7162DC7A7006CF960 /* UILabel+MKHelpers.m */,
+				276F28E017FA28D20046E0FF /* UINavigationController+MKPictureTakerButton.h */,
+				276F28E117FA28D20046E0FF /* UINavigationController+MKPictureTakerButton.m */,
 				2736B1E8162DC7A7006CF960 /* UIWindow+MKHelpers.h */,
 				2736B1E9162DC7A7006CF960 /* UIWindow+MKHelpers.m */,
 				271827BC16BED67500825D50 /* UIImage+MKHelpers.h */,
@@ -331,7 +336,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MK;
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = MK;
 			};
 			buildConfigurationList = 27D0B11415C8270C00354D19 /* Build configuration list for PBXProject "iOS UI Utils" */;
@@ -403,6 +408,7 @@
 				2736B1EA162DC7A7006CF960 /* MKGradientButton.m in Sources */,
 				2736B1EB162DC7A8006CF960 /* MKCGTypeHelpers.m in Sources */,
 				2736B1EC162DC7A8006CF960 /* MD5Helpers.m in Sources */,
+				276F28E217FA28D20046E0FF /* UINavigationController+MKPictureTakerButton.m in Sources */,
 				2736B1ED162DC7A8006CF960 /* NSArray+MKHelpers.m in Sources */,
 				2736B1EE162DC7A8006CF960 /* NSString+MKHelpers.m in Sources */,
 				2736B1EF162DC7A8006CF960 /* UIColor+MKHelpers.m in Sources */,
@@ -482,6 +488,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -510,6 +519,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;

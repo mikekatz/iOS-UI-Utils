@@ -2,7 +2,7 @@
 //  NSArray+MKHelpers.m
 //  iOS UI Utils
 //
-//  Copyright 2012 Michael Katz
+//  Copyright 2012-2013 Michael Katz
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -30,5 +30,39 @@
     }
     return ret;
 }
+
+- (NSArray*) map:(id (^)(id obj, NSUInteger idx)) mapping
+{
+    NSMutableArray* ret = [NSMutableArray arrayWithCapacity:self.count];
+    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        ret[idx] = mapping(obj, idx);
+    }];
+    return ret;
+}
+
++ (NSArray*) intArrayFrom:(NSInteger)start to:(NSInteger)end
+{
+    NSUInteger count = abs(end - start) + 1;
+    NSMutableArray* ret = [NSMutableArray arrayWithCapacity:count];
+    NSUInteger idx = 0;
+    if (end >= start) {
+        for (NSInteger v = start; v <= end; v++) {
+            ret[idx++] = @(v);
+        }
+    } else {
+        for (NSInteger v = start; v >= end; v--) {
+            ret[idx++] = @(v);
+        }
+    }
+    return ret;
+}
+
+- (instancetype) arrayByRemovingObject:(id)object
+{
+    NSMutableArray* ma = [self mutableCopy];
+    [ma removeObject:object];
+    return [[self class] arrayWithArray:ma];
+}
+
 
 @end
